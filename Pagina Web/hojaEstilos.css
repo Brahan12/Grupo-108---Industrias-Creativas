@@ -1,0 +1,445 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css de header */
+
+.principalLogoTitulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 10em;
+    height: 10em;
+    margin-right: 8em;
+}
+
+.titulo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5em;
+    color: rgb(4, 4, 73);
+    background-color: white;
+}
+
+.linea{
+    margin-top: -4.25em;
+    height: 0.5em;
+    background: rgb(4, 4, 73);
+}
+
+/* Css header nav */
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 5em;
+}
+
+ul li a{
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    font-size: 1.7em;
+    color: black;
+}
+
+.checkbtn{
+    font-size: 1.88em;
+    float: right;
+    line-height: 7.95em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/* Css del main */
+
+.principalCard{
+    display: flex;
+    width: 100%;
+    padding: 0em .5em;
+    margin-top: 3em;
+}
+
+.subImg{
+    width: 65%;
+}
+
+.imgCard{
+    width: 100%;
+    height: 100%;
+}
+
+.subParrafo{
+    width: 35%;
+    padding: 2em;
+    border-left: 12px solid white;
+    background: bisque;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center; 
+    font-size: 1.9em;
+}
+
+p{
+    font-family: 'Satisfy', cursive;
+    text-align: justify;
+    margin-top: 1.5em; 
+    line-height: 1.4;
+    font-size: 1.25em;
+}
+
+iframe{
+    width: 100%;
+    margin-top: 1em;
+}
+
+/* Css imagenes con card */
+
+.principal{
+    display: flex;
+    width: 60%;
+    margin: 4em 20% 0em;
+}
+
+.img{
+    width: 60%;
+    border-radius: 16px;
+}
+
+.card{
+    width: 100%;
+    background: black;
+    color: white;
+    height: 14em;
+    margin: 3.5em 1em;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background: white;
+    color: black;
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(181,22,22,0.71);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(181,22,22,0.71);
+    box-shadow: 0px 0px 19px 8px rgba(181,22,22,0.71);
+}
+
+.imgSport{
+    width: 60%;
+    border-radius: 16px;
+}
+
+.cardSport{
+    width: 60%;
+    background: black;
+    color: white;
+    height: 14em;
+    margin: 3.5em 1em;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.cardSport:hover{
+    background: white;
+    color: black;
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(181, 86, 22, 0.71);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(181, 86, 22, 0.71);
+    box-shadow: 0px 0px 19px 8px rgba(181, 86, 22, 0.71);
+   
+}
+
+.cardScooter{
+    width: 60%;
+    background: black;
+    color: white;
+    height: 14em;
+    margin: 3.5em 1em;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.cardScooter:hover{
+    background: white;
+    color: black;
+    -webkit-box-shadow: 0px 0px 19px 8px rgba(22, 59, 181, 0.71);
+    -moz-box-shadow: 0px 0px 19px 8px rgba(22, 59, 181, 0.71);
+    box-shadow: 0px 0px 19px 8px rgba(22, 59, 181, 0.71);
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 1.5em;
+}
+
+.parrafo{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Css del footer */
+
+.principalFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4em;
+    margin-top: 4em;
+    background: black;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top: 8px solid yellow;
+}
+
+.parrafoFooter{
+    margin-top: 0px;
+}
+
+.fa-arrow-up{
+    color: black;
+    background: bisque;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2 !important;
+    border-radius: 20px; 
+}
+
+@media screen and (min-width:1900px){
+    p {
+        font-size: 2em;
+    }
+    
+    iframe {
+        height: 460px;
+    }
+    
+    .card, .cardScooter, .cardSport {
+        height: 31em;
+    }
+
+    h3{
+        font-size: 3.8em;
+    }
+
+    .parrafo{
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .principal {
+        width: 91%;
+        margin: 4em 1em;
+    }
+
+    .logo {
+        width: 8em;
+        height: 8em;
+    }
+    
+    .titulo {
+        font-size: 4em;
+    }
+    
+    ul li a {
+        font-size: 1.4em;
+    }
+    
+    .principalCard{
+        height: 35em;
+    }
+    
+    iframe{
+        width: 450 !important;
+        height: 200px !important;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        padding-top: 2.5em;
+    }
+    
+    .parrafo {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    iframe {
+        width: 37em !important;
+        height: 20em !important;
+        margin: 5px 6%;
+    }
+    
+    p {
+        font-size: 1.1em;
+    }
+
+    .subParrafo {
+        width: 100%;
+        border-left: 0px;
+    }
+    
+    
+    .subImg {
+        display: none;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+        padding-top: 3.5em;
+    }
+    
+    .parrafo {
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .logo {
+        width: 6em;
+        height: 6em;
+        margin-right: 5em;
+    }
+    
+    .titulo {
+        font-size: 2.8em;
+    }
+    
+    .linea {
+        margin-top: -3.25em;
+    }
+    
+    iframe {
+        width: 22em !important;
+        height: 15em !important;
+        margin: 0;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+    .parrafo {
+        font-size: 1.2em;
+        padding-bottom: 2.5em;
+    }
+    
+    h3 {
+        padding-top: 3.5em;
+    }
+    
+    .card, .cardScooter, .cardSport {
+        margin: 0;
+        width: 100% !important;
+        display: block !important;
+    }
+    
+    
+    .img, .imgSport {
+        margin: 0.5em 0em;
+        width: 100%;
+    }
+
+    .principal{
+        display: block;
+    }
+
+    ul{
+        position: absolute;
+        width: 87%;
+        height: 44vh;
+        background-color: rgb(4, 4, 73);
+        top: 2em;
+        left: -100%;
+        text-align: center;
+        transition: all 0.8s;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .checkbtn{
+        display: block;
+        margin: -1.5em 0.4em -2.9em;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 1.5em 0em 0.2em;
+        width: 100%;
+        font-size: 1em;
+        height: 2em;
+    }
+
+    nav ul a{
+        color: white;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+      
+
+@media screen and (max-width: 380px){
+    iframe{
+        display: none;
+    }
+
+    p {
+        font-size: 1.28em;
+    }
+
+    .card, .cardScooter, .cardSport{
+        height: 12em;
+    }
+
+    h3 {
+        padding-top: 3.1em;
+    }
+
+    .logo {
+        margin-right: 2em;
+    }
+}
+
+
+@media screen and (max-width: 330px){
+    p {
+        font-size: 1.12em;
+    }
+    
+    .card, .cardScooter, .cardSport {
+        height: 10em;
+    }
+    
+    h3 {
+        padding-top: 2.1em;
+    }
+}
+

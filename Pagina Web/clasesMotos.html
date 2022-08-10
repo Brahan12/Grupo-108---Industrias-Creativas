@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de motos</title>
+    <link rel="stylesheet" href="estilosClases.css">
+    <link rel="icon" type="icon" href="/imagenes/iconoMoto.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b74d6ed8cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="posicionInicial">
+        <div class="principalLogoTitulo" >
+            <a href="paginaWeb.html"><img class="logo" src="/imagenes/logoMoto.jpg" alt="logo de motos"></a>
+            <h1 class="titulo">Motos</h1>
+        </div>
+        <hr class="lineaTitulo">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="paginaWeb.html">Inicio</a></li>
+                <li><a href="">Historia de las motos</a></li>
+                <li><a href="formulario.html">Suscribirse</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid g-5">
+            <div class="row">
+                <div class="carousel slide carousel-fade" id="carusel-01" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carusel-01" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+                        <button type="button" data-bs-target="#carusel-01" data-bs-slide-to="1" aria-label="Slide2"></button>
+                        <button type="button" data-bs-target="#carusel-01" data-bs-slide-to="2" aria-label="Slide3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/motoCrossCarrousel.jpg" alt="motoCross" class="d-block w-100"  height="500em">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/motoScooterCarrousel.jpg" alt="motoCross" class="d-block w-100"  height="500em">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/motoSportCarrousel.jpg" alt="motoCross" class="d-block w-100"  height="500em">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carusel-01" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carusel-01" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="principalFooter">
+            <p class="parrafoFooter">Copyright&copy;  Misión TIC - UTP</p>
+            <a href="#posicionInicial"><i class="fa fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

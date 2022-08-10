@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribirse</title>
+    <link rel="icon" type="icon" href="/imagenes/iconoMoto.png">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="https://kit.fontawesome.com/b74d6ed8cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="posicionInicial">
+        <div class="principalLogoTitulo" >
+            <a href="paginaWeb.html"><img class="logo" src="/imagenes/logoMoto.jpg" alt="logo de motos"></a>
+            <h1 class="titulo">Motos</h1>
+        </div>
+        <hr class="lineaTitulo">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="paginaWeb.html">Inicio</a></li>
+                <li><a href="clasesMotos.html">Clases de motos</a></li>
+                <li><a href="">Historia de las motos</a></li>   
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="principalForm">
+            <form action="">
+                <label for="name">Nombres:
+                    <input type="text" id="name">
+                </label>
+                <label for="last">apellidos:
+                    <input type="text" id="last">
+                </label>
+                <label for="phone">Telefono / celular:
+                    <input type="number" id="phone">
+                </label>
+                <label for="email">Email:
+                    <input type="email" id="email">
+                </label>
+                <label class="noLabel">Sexo:
+                    <br>
+                    <input type="radio" name="sexo" class="noInput">Masculino
+                    <input type="radio" name="sexo" class="noInput">Femenino
+                </label>
+                <label class="noLabel">Tratamiento de datos:
+                    <br>
+                    <input type="radio" name="datos" class="noInput">Si
+                    <input type="radio" name="datos" class="noInput">No
+                </label>
+                <label for="ob">Observaciones:
+                    <input type="text" id="ob" class="inputOb">
+                </label>
+                <div class="boton">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="principalFooter">
+            <p class="parrafoFooter">Copyright&copy;  Misión TIC - UTP</p>
+            <a href="#posicionInicial"><i class="fa fa-arrow-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
